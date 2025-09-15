@@ -12,23 +12,28 @@ package main
 // ```
 import (
 	"fmt"
-	"strings"
 )
 
 var TEST_STRING string = "candy canes do taste yummy"
 
 func nonRepeat(str string) string {
-	var filteredMap map[string]int
-	s := strings.Split(str, `''`)
-	res := make(map[string]int)
-	for val, ok := range s {
-		if !ok {
-			res[val] = 0
-		}
-		res[val] += 1
+	// Create a map to store character counts
+	charCount := make(map[rune]int)
+
+	// Count occurrences of each character
+	for _, char := range str {
+		charCount[char]++
 	}
-	filteredMap()
-	return res
+
+	// Find the last non-repeating character by iterating from the end
+	for i := len(str) - 1; i >= 0; i-- {
+		if charCount[rune(str[i])] == 1 {
+			return string(str[i])
+		}
+	}
+
+	// If no non-repeating character found, return empty string
+	return ""
 }
 
 func main() {
