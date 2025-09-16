@@ -12,7 +12,7 @@ Example:
 
 ```
 
-[Golang TBD]() | [Python](./python/task_01.py) | [Ruby TBD]()
+[Golang](./golang/task_01.go) | [Python](./python/task_01.py) | [Ruby](./ruby/task_01.rb)
 
 2. You’re assembling a custom mechanical keyboard. Each required part has a delivery time in days and an assembly time in hours. You can only assemble a part after it arrives, and you can only work on one part at a time. Given an array of parts where each part is { name, arrivalDays, assemblyHours }, return the minimum total hours needed to finish assembling all parts, starting from hour 0.
 
