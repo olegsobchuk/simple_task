@@ -14,13 +14,16 @@ import (
 var TEST_STRING string = "candy canes do taste yummy"
 
 func nonRepeat(str string) string {
-	arr := make(map[rune]uint)
-	for _, chr := range str {
-		arr[chr]++
+	charCount := make(map[rune]uint)
+	runes := []rune(str)
+
+	for _, chr := range runes {
+		charCount[chr]++
 	}
-	for n := len(str) - 1; n > 0; n-- {
-		element := rune(str[n])
-		if arr[element] == 1 {
+
+	for n := len(runes) - 1; n >= 0; n-- {
+		element := runes[n]
+		if charCount[element] == 1 {
 			return string(element)
 		}
 	}
