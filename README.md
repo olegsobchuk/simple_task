@@ -31,7 +31,7 @@ minAssemblyTime([
 
 ```
 
-[Golang TBD](Golang) | [Python](./python/task_02.py) | [Ruby TBD]()
+[Golang](./golang/task_02/main.go) | [Python](./python/task_02.py) | [Ruby TBD]()
 
 3. Given an array of audio file durations, write a function to group the files into playlists such that each playlist's total duration does not exceed a given limit maxDuration. Return an array of playlists, where each playlist is an array of file durations. Try to minimize the number of playlists.
 
