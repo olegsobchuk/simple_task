@@ -49,7 +49,7 @@ groupAudioFiles(files, 160)
 
 ```
 
-[Golang TBD](Golang) | [Python](./python/task_03.py) | [Ruby TBD]()
+[Golang](./golang/task_03/main.go) | [Python](./python/task_03.py) | [Ruby TBD]()
 
 4. Given an array arr representing the positions of monsters along a straight line, and an integer d representing the minimum safe distance required between any two monsters, write a function to determine if all monsters are at least d units apart. If not, return the smallest distance found between any two monsters. If all monsters are safely spaced, return -1.
 
