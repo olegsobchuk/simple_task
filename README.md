@@ -270,14 +270,36 @@ const innings = [[1, 0], [2, 2], [0, 3], [4, 1]];
 
 ```
 
-16.
+16. Write a function that determines if a number is [abundant, deficient, perfect, or amicable](https://www.encyclopedia.com/education/news-wires-white-papers-and-books/numbers-abundant-deficient-perfect-and-amicable?utm_source=cassidoo&utm_medium=email&utm_campaign=the-love-that-you-withhold-is-the-pain-that-you).
+
+Examples:
 
 ```
+whatKindOfNumber(6)
+> 'perfect'
 
+whatKindOfNumber(12)
+> 'abundant'
+
+whatKindOfNumber(4)
+> 'deficient'
 ```
 
-17.
+17. Given the non-negative integer n , output the value of its [hyperfactorial](https://mathworld.wolfram.com/Hyperfactorial.html?utm_source=cassidoo&utm_medium=email&utm_campaign=i-recommend-the-freedom-that-comes-from-asking).
+Don't worry about outputs exceeding your language's integer limit.
+
+Examples:
 
 ```
+> hyperfactorial(0)
+> 1
 
+> hyperfactorial(2)
+> 4
+>
+> hyperfactorial(3)
+> 108
+
+> hyperfactorial(7)
+> 3319766398771200000
 ```
