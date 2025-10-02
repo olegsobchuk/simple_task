@@ -85,7 +85,7 @@ console.log(towel.nextCycle()); // "done"
 
 ```
 
-[Golang TBD](Golang) | [Python](./python/task_05.py) | [Ruby TBD]()
+[Golang](./golang/task_05/main.go) | [Python](./python/task_05.py) | [Ruby TBD]()
 
 6. Given an array of order objects for a restaurant, each with a table number and a list of ordered items, write a function that returns an object mapping each table number to a summary of how many times each item was ordered at that table. Extra credit: Could you go so far as to make this a restaurant management game?
 
@@ -109,7 +109,7 @@ const orders = [
 
 ```
 
-[Golang TBD](Golang) | [Python](./python/task_06.py) | [Ruby TBD]()
+[Golang](./golang/task_06/main.go) | [Python](./python/task_06.py) | [Ruby TBD]()
 
 7. Given an array of side lengths, write a function to determine they can form a hexagon with three side-length pairs (as in, three pairs of equal sides needed). Return true if possible.
 
