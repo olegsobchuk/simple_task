@@ -286,7 +286,7 @@ whatKindOfNumber(4)
 ```
 
 17. Given the non-negative integer n , output the value of its [hyperfactorial](https://mathworld.wolfram.com/Hyperfactorial.html?utm_source=cassidoo&utm_medium=email&utm_campaign=i-recommend-the-freedom-that-comes-from-asking).
-Don't worry about outputs exceeding your language's integer limit.
+  Don't worry about outputs exceeding your language's integer limit.
 
 Examples:
 
