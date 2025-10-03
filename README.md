@@ -127,7 +127,7 @@ canFormHexagon([2, 2, 2, 2, 2, 2, 2])
 
 ```
 
-[Golang TBD](Golang) | [Python](./python/task_07.py) | [Ruby TBD]()
+[Golang](./golang/task_07/main.go) | [Python](./python/task_07.py) | [Ruby TBD]()
 
 8. Given a multi-line string and a sequence of Vim navigation commands (h for left, j for down, k for up, and l for right), and starting at the top-left character, write a function that processes the commands and returns the character under the cursor. If the cursor tries to move out of bounds, keep it at the last valid position.
 
