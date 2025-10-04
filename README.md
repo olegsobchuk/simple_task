@@ -143,7 +143,7 @@ getCharAfterVimCommands(string, commands)
 
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang](./golang/task_08/main.go) | [Python TBD]() | [Ruby TBD]()
 
 9. Given an array of strings representing a sequence of traffic light states ("red" for stop, "green" for go, "yellow" for slow), write a function that returns true if the sequence could represent a valid state machine for a standard traffic light. The only valid transitions are: red to green, green to yellow, and yellow to red.
 
