@@ -344,3 +344,54 @@ const edits = [
 ```
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+
+19. Given a CSV string where each row contains a name, age, and city (and values may be quoted, have embedded commas or escaped quotes), write a function that parses the CSV and outputs a formatted list of strings in the form: "Name, age Age, from City". Handle quoted fields containing commas and escaped quotes.
+
+Example:
+
+```
+const csv = 'name,age,city\n"Ryu, Mi-yeong",30,"Seoul"\nZoey,24,"Burbank"'
+
+csvToList(csv)
+>
+- Ryu, Mi-yeong, age 30, from Seoul
+- Zoey, age 24, from Burbank
+```
+
+[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+
+20. Given a string str and an array of positive integers widths, write a function that splits the string into lines, each with the exact number of characters as specified by the corresponding width. Return an array of the substrings. Use the last width for any remaining characters if the array is shorter than needed.
+
+Example:
+
+```
+const str = "Supercalifragilisticexpialidocious";
+const widths = [5, 9, 4];
+
+> splitByWidths(str, widths);
+> ['Super', 'califragi', 'list', 'icex', 'pial', 'idoc', 'ious']
+```
+
+[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+
+21. Given a field represented as an array of 0s and 1s, where 1 means that position needs protection, you can place a scarecrow at any index, and each scarecrow protects up to k consecutive positions centered around itself (for example, for k = 3, a scarecrow at i protects i-1, i, and i+1). Return the minimum set of indices where scarecrows should be placed so that all the positions with 1 are protected. You can assume k is an odd number (or make up what happens if it's even).
+
+Examples:
+
+```
+let field = [1, 1, 0, 1, 1, 0, 1];
+let k = 3;
+
+placeScarecrows(field, k);
+> [1, 4, 6]
+
+placeScarecrows([1, 0, 1, 1, 0, 1], k)
+> [1, 4]
+
+placeScarecrows([1, 1, 1, 1, 1], 1)
+> [0, 1, 2, 3, 4]
+```
+
+[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+
+22.
