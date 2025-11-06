@@ -177,7 +177,7 @@ Example:
 
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang](./golang/task_09/main.go) | [Python TBD]() | [Ruby TBD]()
 
 10. Imagine a simplified version of the game Battleship played on a 2D grid. The grid represents the sea, and each
 cell can either be empty (.) or contain a part of a ship (X). Ships are placed horizontally or vertically, and there
