@@ -449,3 +449,15 @@ knightMoves([0, 0])
 knightMoves([1, 2])
 > [[0, 0], [0, 4], [2, 0], [2, 4], [3, 1], [3, 3]]
 ```
+
+23. You are given two sorted arrays, a and b, where a has a large enough size buffer at the end to hold b (which can be spaces, zeroes, or nulls). Write a function to merge b into a in sorted order.
+
+Example:
+
+``` text
+let a = [1, 3, 5, 0, 0, 0];
+let b = [2, 4, 6];
+
+> merge(a, b)
+> [1, 2, 3, 4, 5, 6]
+```
