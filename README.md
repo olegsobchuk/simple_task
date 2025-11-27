@@ -461,3 +461,31 @@ let b = [2, 4, 6];
 > merge(a, b)
 > [1, 2, 3, 4, 5, 6]
 ```
+
+24. Given a positive integer n, write a function that returns an array containing all integers from 1 to n, where each integer i appears exactly i times in the result. For example, 3 should appear 3 times, 5 should appear 5 times, and so on. The order of the integers in the output array does not matter.
+
+Example:
+
+```text
+> repeatedIntegers(4)
+> [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+```
+
+25. Given an array of meal prep tasks for Thanksgiving, where each task is represented as [taskName, startTime, endTime], return the maximum number of non-overlapping tasks you can complete, along with the names of the chosen tasks in the order they were selected. Task times are inclusive of start but exclusive of end.
+
+Example:
+
+```text
+const tasks = [
+  ["Make Gravy", 10, 11],
+  ["Mash Potatoes", 11, 12],
+  ["Bake Rolls", 11, 13],
+  ["Prep Salad", 12, 13]
+];
+
+maxMealPrepTasks(tasks)
+> {
+    count: 3,
+    chosen: ["Make Gravy", "Mash Potatoes", "Prep Salad"]
+  }
+```
