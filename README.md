@@ -199,7 +199,7 @@ numberOfShips(ships)
 
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang](./golang/task_10/main.go) | [Python TBD]() | [Ruby TBD]()
 
 11. For an array of numbers, generate an array where for every element, all neighboring elements are added to itself,
 and return the sum of that array.
