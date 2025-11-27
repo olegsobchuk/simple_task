@@ -218,7 +218,7 @@ Examples:
 
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang TBD](Golang) | [Python](./python/task_11.py) | [Ruby TBD]()
 
 12. Given an array of strings representing the names of monarchs and their ordinal numbers, write a function that
 returns the list of names sorted first by name and then by their ordinal value (in Roman numerals), in ascending order.

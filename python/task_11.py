@@ -13,17 +13,19 @@
 # [0.1, 0.2, 0.3]  -> 1.4
 # [1,-20,300,-4000,50000,-600000,7000000] -> 12338842
 
+from decimal import Decimal
 
-def neighboring_sum(arry: list) -> int:
-    res: int = 0
-    length: int = len(arry)
-    for idx, num in enumerate(arry):
-        pass
+
+def neighboring_sum(arry: list) -> Decimal:
+    d_arry: list[Decimal] = [Decimal(str(x)) for x in arry]
+    res: Decimal = Decimal("0.0")
+    length: int = len(d_arry)
+    for idx, num in enumerate(d_arry):
         sum: int = num
         if idx > 0:
-            sum += arry[idx - 1]
+            sum += d_arry[idx - 1]
         if idx < length - 1:
-            sum += arry[idx + 1]
+            sum += d_arry[idx + 1]
         res += sum
     return res
 
