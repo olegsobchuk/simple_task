@@ -450,6 +450,8 @@ knightMoves([1, 2])
 > [[0, 0], [0, 4], [2, 0], [2, 4], [3, 1], [3, 3]]
 ```
 
+[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+
 23. You are given two sorted arrays, a and b, where a has a large enough size buffer at the end to hold b (which can be spaces, zeroes, or nulls). Write a function to merge b into a in sorted order.
 
 Example:
@@ -462,6 +464,8 @@ let b = [2, 4, 6];
 > [1, 2, 3, 4, 5, 6]
 ```
 
+[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+
 24. Given a positive integer n, write a function that returns an array containing all integers from 1 to n, where each integer i appears exactly i times in the result. For example, 3 should appear 3 times, 5 should appear 5 times, and so on. The order of the integers in the output array does not matter.
 
 Example:
@@ -470,6 +474,8 @@ Example:
 > repeatedIntegers(4)
 > [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 ```
+
+[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
 25. Given an array of meal prep tasks for Thanksgiving, where each task is represented as [taskName, startTime, endTime], return the maximum number of non-overlapping tasks you can complete, along with the names of the chosen tasks in the order they were selected. Task times are inclusive of start but exclusive of end.
 
@@ -489,3 +495,31 @@ maxMealPrepTasks(tasks)
     chosen: ["Make Gravy", "Mash Potatoes", "Prep Salad"]
   }
 ```
+
+[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+
+26. There are 16 basic [HTML Colors](https://en.wikipedia.org/wiki/Web_colors?utm_source=cassidoo&utm_medium=email&utm_campaign=we-all-have-our-down-days-but-its-not-hard-to#HTML_color_names).
+Write a program to output them in ascending order by HEX value. Don't use any built-in sorting methods!
+
+Example output:
+
+```
+000000
+000080
+0000FF
+008000
+008080
+00FF00
+00FFFF
+800000
+800080
+808000
+808080
+C0C0C0
+FF0000
+FF00FF
+FFFF00
+FFFFFF
+```
+
+[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
