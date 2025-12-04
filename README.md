@@ -234,7 +234,7 @@ Example:
 
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang](./golang/task_12/main.go) | [Python TBD]() | [Ruby TBD]()
 
 13. Given an array of fireworks representing a series going off, write a function to find the "grand finale" of the
 show! A grand finale is defined as the longest subarray where the average size is at least 5, the minimum velocity is 3,
