@@ -236,30 +236,7 @@ Example:
 
 [Golang](./golang/task_12/main.go) | [Python TBD]() | [Ruby TBD]()
 
-13. Given an array of fireworks representing a series going off, write a function to find the "grand finale" of the
-show! A grand finale is defined as the longest subarray where the average size is at least 5, the minimum velocity is 3,
-and the difference between the min and max height is no more than 10. Return the starting index of the grand finale.
-
-Example:
-
-```text
-const fireworks = [
-  {height: 10, size: 6, velocity: 4},
-  {height: 13, size: 3, velocity: 2},
-  {height: 17, size: 6, velocity: 3},
-  {height: 21, size: 8, velocity: 4},
-  {height: 19, size: 5, velocity: 3},
-  {height: 18, size: 4, velocity: 4}
-];
-
-> grandFinaleStart(fireworks)
-> 2
-
-```
-
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
-
-14. Turn an array of integers into a nested array. You can think of this as the opposite of flattening an array!
+13. Turn an array of integers into a nested array. You can think of this as the opposite of flattening an array!
 
 Examples:
 
@@ -272,9 +249,9 @@ nestArray([1])
 
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang TBD](Golang) | [Python](./python/task_13.py) | [Ruby TBD]()
 
-15. You are given an array of arrays, where each inner array represents the runs scored by each team in an inning of
+14. You are given an array of arrays, where each inner array represents the runs scored by each team in an inning of
 a baseball game: [[home1, away1], [home2, away2], ...]. Write a function that returns an object with the total runs for
 each team, which innings each team led, and who won the game.
 
