@@ -269,7 +269,7 @@ whatKindOfNumber(4)
 
 [Golang](./golang/task_14/main.go) | [Python TBD]() | [Ruby TBD]()
 
-17. Given the non-negative integer n , output the value of its
+15. Given the non-negative integer n , output the value of its
 [hyperfactorial](https://mathworld.wolfram.com/Hyperfactorial.html?utm_source=cassidoo&utm_medium=email&utm_campaign=i-recommend-the-freedom-that-comes-from-asking).
 Don't worry about outputs exceeding your language's integer limit.
 
@@ -289,7 +289,7 @@ Examples:
 > 3319766398771200000
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang](./golang/task_15/main.go) | [Python TBD]() | [Ruby TBD]()
 
 18. You're building a tool that tracks component edits and groups them into a changelog. Given an array of edit
 actions, each with a timestamp and a component name, return an array of grouped changelog entries. Edits to the same
