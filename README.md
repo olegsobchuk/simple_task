@@ -251,30 +251,7 @@ nestArray([1])
 
 [Golang TBD](Golang) | [Python](./python/task_13.py) | [Ruby TBD]()
 
-14. You are given an array of arrays, where each inner array represents the runs scored by each team in an inning of
-a baseball game: [[home1, away1], [home2, away2], ...]. Write a function that returns an object with the total runs for
-each team, which innings each team led, and who won the game.
-
-
-Example:
-
-```text
-const innings = [[1, 0], [2, 2], [0, 3], [4, 1]];
-
-> analyzeBaseballGame(innings)
-> {
-    homeTotal: 7,
-    awayTotal: 6,
-    homeLedInnings: [1, 2, 4],
-    awayLedInnings: [3],
-    winner: "home"
-  }
-
-```
-
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
-
-16. Write a function that determines if a number is
+14. Write a function that determines if a number is
 [abundant, deficient, perfect, or amicable](https://www.encyclopedia.com/education/news-wires-white-papers-and-books/numbers-abundant-deficient-perfect-and-amicable?utm_source=cassidoo&utm_medium=email&utm_campaign=the-love-that-you-withhold-is-the-pain-that-you).
 
 Examples:
@@ -290,7 +267,7 @@ whatKindOfNumber(4)
 > 'deficient'
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang](./golang/task_14/main.go) | [Python TBD]() | [Ruby TBD]()
 
 17. Given the non-negative integer n , output the value of its
 [hyperfactorial](https://mathworld.wolfram.com/Hyperfactorial.html?utm_source=cassidoo&utm_medium=email&utm_campaign=i-recommend-the-freedom-that-comes-from-asking).
