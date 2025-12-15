@@ -291,7 +291,7 @@ Examples:
 
 [Golang](./golang/task_15/main.go) | [Python TBD]() | [Ruby TBD]()
 
-18. You're building a tool that tracks component edits and groups them into a changelog. Given an array of edit
+16. You're building a tool that tracks component edits and groups them into a changelog. Given an array of edit
 actions, each with a timestamp and a component name, return an array of grouped changelog entries. Edits to the same
 component within a 10-minute window should be merged into one changelog entry, showing the component name and the
 range of timestamps affected.
@@ -327,7 +327,7 @@ const edits = [
 ]
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang TBD](Golang) | [Python](./python/task_16.py) | [Ruby TBD]()
 
 19. Given a CSV string where each row contains a name, age, and city (and values may be quoted, have embedded commas or
 escaped quotes), write a function that parses the CSV and outputs a formatted list of strings in the form: "Name, age
