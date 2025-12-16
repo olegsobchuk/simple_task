@@ -363,7 +363,7 @@ const widths = [5, 9, 4];
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-21. Given a field represented as an array of 0s and 1s, where 1 means that position needs protection, you can place a
+20. Given a field represented as an array of 0s and 1s, where 1 means that position needs protection, you can place a
 scarecrow at any index, and each scarecrow protects up to k consecutive positions centered around itself (for example,
 for k = 3, a scarecrow at i protects i-1, i, and i+1). Return the minimum set of indices where scarecrows should be
 placed so that all the positions with 1 are protected. You can assume k is an odd number (or make up what happens if
@@ -387,7 +387,7 @@ placeScarecrows([1, 1, 1, 1, 1], 1)
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-22. Given he current position of a knight as [row, col] in an 8x8 chess board represented as a 2D
+21. Given he current position of a knight as [row, col] in an 8x8 chess board represented as a 2D
 array, write a function to return all valid moves the knight can make. Extra credit: Do this for
 every chess piece!
 
@@ -406,7 +406,7 @@ knightMoves([1, 2])
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-23. You are given two sorted arrays, a and b, where a has a large enough size buffer at the end to hold b (which can be spaces, zeroes, or nulls). Write a function to merge b into a in sorted order.
+22. You are given two sorted arrays, a and b, where a has a large enough size buffer at the end to hold b (which can be spaces, zeroes, or nulls). Write a function to merge b into a in sorted order.
 
 Example:
 
@@ -420,7 +420,7 @@ let b = [2, 4, 6];
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-24. Given a positive integer n, write a function that returns an array containing all integers from 1 to n, where each integer i appears exactly i times in the result. For example, 3 should appear 3 times, 5 should appear 5 times, and so on. The order of the integers in the output array does not matter.
+23. Given a positive integer n, write a function that returns an array containing all integers from 1 to n, where each integer i appears exactly i times in the result. For example, 3 should appear 3 times, 5 should appear 5 times, and so on. The order of the integers in the output array does not matter.
 
 Example:
 
@@ -431,7 +431,7 @@ Example:
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-25. Given an array of meal prep tasks for Thanksgiving, where each task is represented as [taskName, startTime, endTime], return the maximum number of non-overlapping tasks you can complete, along with the names of the chosen tasks in the order they were selected. Task times are inclusive of start but exclusive of end.
+24. Given an array of meal prep tasks for Thanksgiving, where each task is represented as [taskName, startTime, endTime], return the maximum number of non-overlapping tasks you can complete, along with the names of the chosen tasks in the order they were selected. Task times are inclusive of start but exclusive of end.
 
 Example:
 
@@ -452,7 +452,7 @@ maxMealPrepTasks(tasks)
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-26. There are 16 basic [HTML Colors](https://en.wikipedia.org/wiki/Web_colors?utm_source=cassidoo&utm_medium=email&utm_campaign=we-all-have-our-down-days-but-its-not-hard-to#HTML_color_names).
+25. There are 16 basic [HTML Colors](https://en.wikipedia.org/wiki/Web_colors?utm_source=cassidoo&utm_medium=email&utm_campaign=we-all-have-our-down-days-but-its-not-hard-to#HTML_color_names).
 Write a program to output them in ascending order by HEX value. Don't use any built-in sorting methods!
 
 Example output:
@@ -478,7 +478,7 @@ FFFFFF
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-27. Make a data structure for a deck of cards, and implement a shuffle() method, and a draw(n) method (where you draw n cards). Calling draw() when the deck is empty returns an empty array.
+26. Make a data structure for a deck of cards, and implement a shuffle() method, and a draw(n) method (where you draw n cards). Calling draw() when the deck is empty returns an empty array.
 
 Example usage:
 
@@ -488,6 +488,23 @@ deck.shuffle();
 console.log(deck.draw(5)); // Example: ['10♠', 'K♥', '3♣', 'J♦', '7♠']
 console.log(deck.draw(5).length); // 5
 console.log(deck.draw(2)); // Example: ['5♣', 'A♠']
+```
+
+[Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+27. Write a function to generate a Latin Square given a positive integer n. The values can be any n distinct values, and don't have to be consistent for different n.
+
+Examples:
+
+```text
+latinSquare(1)
+[[1]]
+
+latinSquare(2)
+[[1, 2], [2, 1]]
+
+latinSquare(4)
+[[1, 2, 3, 4], [2, 1, 4, 3], [3, 4, 1, 2], [4, 3, 2, 1]]
 ```
 
 [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
