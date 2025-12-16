@@ -329,7 +329,7 @@ const edits = [
 
 [Golang TBD](Golang) | [Python](./python/task_16.py) | [Ruby TBD]()
 
-19. Given a CSV string where each row contains a name, age, and city (and values may be quoted, have embedded commas or
+17. Given a CSV string where each row contains a name, age, and city (and values may be quoted, have embedded commas or
 escaped quotes), write a function that parses the CSV and outputs a formatted list of strings in the form: "Name, age
 Age, from City". Handle quoted fields containing commas and escaped quotes.
 
@@ -344,7 +344,7 @@ csvToList(csv)
 - Zoey, age 24, from Burbank
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang](./golang/task_17/main.go) | [Python TBD]() | [Ruby TBD]()
 
 20. Given a string str and an array of positive integers widths, write a function that splits the
 string into lines, each with the exact number of characters as specified by the corresponding width.
