@@ -513,7 +513,7 @@ latinSquare(4)
 
 Examples:
 
-```
+```text
 []             -> True
 [1]            -> True
 [1,1]          -> True
@@ -524,3 +524,68 @@ Examples:
 ```
 
 [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+29. Given a string that contains only digits from 0 to 9 and a number n, replace each consecutive run of n with its length.
+
+Examples:
+
+```text
+> replaceRepeats('1234500362000440', 0)
+> 1234523623441
+
+> replaceRepeats('000000000000', 0)
+> 12
+
+> replaceRepeats('123456789', 1)
+> 123456789
+```
+
+[Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+30. Given an integer array nums, sum each element in the array in order. You are allowed to use at most one reset during the run: when you reset, your current score becomes 0 and you continue with the next elements. Return the maximum score you can end with.
+
+Example:
+
+```text
+> maxScoreWithOneReset([2, -1, 2, -5, 2, 2]) // reset after -5
+> 4
+
+> maxScoreWithOneReset([4, -10, 3, 2, -1, 6]) // reset after -10
+> 10
+
+> maxScoreWithOneReset([-50, -2, -3]) // reset after -3
+> 0
+```
+
+[Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+31. Given an array of objects representing bears in a forest, each with a name and hunger level, return the names of all bears whose hunger level is above the forest average, sorted alphabetically. In how few lines can you do this one?
+
+Example:
+
+```text
+const bears = [
+  { name: 'Baloo', hunger: 6 },
+  { name: 'Yogi', hunger: 9 },
+  { name: 'Paddington', hunger: 4 },
+  { name: 'Winnie', hunger: 10 },
+  { name: 'Chicago', hunger: 20 },
+];
+
+hungryBears(bears)
+> ['Chicago', 'Winnie']
+```
+
+[Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+32. Given a string str, find a contiguous substring of length 10 whose characters can be bijectively mapped to the moves {U,D,L,R,B,A} so that the substring decodes to the Konami code "UUDDLRLRBA" (a character always maps to the same move, and two different moves can’t share a character). Return a valid mapping as an object.
+
+Example:
+
+```text
+konamiMapping("xx2233454590yy11110")
+> { "0": "A", "2": "U", "3": "D", "4": "L", "5": "R", "9": "B" }
+
+konamiMapping("sduwahoda22ii0d0dbn")
+> { "0": "L", "2": "U", "i": "D", "d": "R", "b": "B", "n": "A" }
+```
