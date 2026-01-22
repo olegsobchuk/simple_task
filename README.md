@@ -346,7 +346,7 @@ csvToList(csv)
 
 [Golang](./golang/task_17/main.go) | [Python TBD]() | [Ruby TBD]()
 
-20. Given a string str and an array of positive integers widths, write a function that splits the
+18. Given a string str and an array of positive integers widths, write a function that splits the
 string into lines, each with the exact number of characters as specified by the corresponding width.
 Return an array of the substrings. Use the last width for any remaining characters if the array is
 shorter than needed.
@@ -363,7 +363,7 @@ const widths = [5, 9, 4];
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-20. Given a field represented as an array of 0s and 1s, where 1 means that position needs protection, you can place a
+19. Given a field represented as an array of 0s and 1s, where 1 means that position needs protection, you can place a
 scarecrow at any index, and each scarecrow protects up to k consecutive positions centered around itself (for example,
 for k = 3, a scarecrow at i protects i-1, i, and i+1). Return the minimum set of indices where scarecrows should be
 placed so that all the positions with 1 are protected. You can assume k is an odd number (or make up what happens if
@@ -387,7 +387,7 @@ placeScarecrows([1, 1, 1, 1, 1], 1)
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-21. Given he current position of a knight as [row, col] in an 8x8 chess board represented as a 2D
+20. Given he current position of a knight as [row, col] in an 8x8 chess board represented as a 2D
 array, write a function to return all valid moves the knight can make. Extra credit: Do this for
 every chess piece!
 
@@ -406,7 +406,7 @@ knightMoves([1, 2])
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-22. You are given two sorted arrays, a and b, where a has a large enough size buffer at the end to hold b (which can be spaces, zeroes, or nulls). Write a function to merge b into a in sorted order.
+21. You are given two sorted arrays, a and b, where a has a large enough size buffer at the end to hold b (which can be spaces, zeroes, or nulls). Write a function to merge b into a in sorted order.
 
 Example:
 
@@ -420,7 +420,7 @@ let b = [2, 4, 6];
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-23. Given a positive integer n, write a function that returns an array containing all integers from 1 to n, where each integer i appears exactly i times in the result. For example, 3 should appear 3 times, 5 should appear 5 times, and so on. The order of the integers in the output array does not matter.
+22. Given a positive integer n, write a function that returns an array containing all integers from 1 to n, where each integer i appears exactly i times in the result. For example, 3 should appear 3 times, 5 should appear 5 times, and so on. The order of the integers in the output array does not matter.
 
 Example:
 
@@ -431,7 +431,7 @@ Example:
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-24. Given an array of meal prep tasks for Thanksgiving, where each task is represented as [taskName, startTime, endTime], return the maximum number of non-overlapping tasks you can complete, along with the names of the chosen tasks in the order they were selected. Task times are inclusive of start but exclusive of end.
+23. Given an array of meal prep tasks for Thanksgiving, where each task is represented as [taskName, startTime, endTime], return the maximum number of non-overlapping tasks you can complete, along with the names of the chosen tasks in the order they were selected. Task times are inclusive of start but exclusive of end.
 
 Example:
 
@@ -452,7 +452,7 @@ maxMealPrepTasks(tasks)
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-25. There are 16 basic [HTML Colors](https://en.wikipedia.org/wiki/Web_colors?utm_source=cassidoo&utm_medium=email&utm_campaign=we-all-have-our-down-days-but-its-not-hard-to#HTML_color_names).
+24. There are 16 basic [HTML Colors](https://en.wikipedia.org/wiki/Web_colors?utm_source=cassidoo&utm_medium=email&utm_campaign=we-all-have-our-down-days-but-its-not-hard-to#HTML_color_names).
 Write a program to output them in ascending order by HEX value. Don't use any built-in sorting methods!
 
 Example output:
@@ -478,7 +478,7 @@ FFFFFF
 
 [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-26. Make a data structure for a deck of cards, and implement a shuffle() method, and a draw(n) method (where you draw n cards). Calling draw() when the deck is empty returns an empty array.
+25. Make a data structure for a deck of cards, and implement a shuffle() method, and a draw(n) method (where you draw n cards). Calling draw() when the deck is empty returns an empty array.
 
 Example usage:
 
@@ -492,7 +492,7 @@ console.log(deck.draw(2)); // Example: ['5♣', 'A♠']
 
 [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-27. Write a function to generate a Latin Square given a positive integer n. The values can be any n distinct values, and don't have to be consistent for different n.
+26. Write a function to generate a Latin Square given a positive integer n. The values can be any n distinct values, and don't have to be consistent for different n.
 
 Examples:
 
@@ -509,7 +509,7 @@ latinSquare(4)
 
 [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-28. An alternating array is a list of any length in which two (not necessarily different) values are alternating (all even-indexed items are equal, and all odd-indexed items are equal). Given an array, return true if it is alternating.
+27. An alternating array is a list of any length in which two (not necessarily different) values are alternating (all even-indexed items are equal, and all odd-indexed items are equal). Given an array, return true if it is alternating.
 
 Examples:
 
@@ -525,7 +525,7 @@ Examples:
 
 [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-29. Given a string that contains only digits from 0 to 9 and a number n, replace each consecutive run of n with its length.
+28. Given a string that contains only digits from 0 to 9 and a number n, replace each consecutive run of n with its length.
 
 Examples:
 
@@ -542,7 +542,7 @@ Examples:
 
 [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-30. Given an integer array nums, sum each element in the array in order. You are allowed to use at most one reset during the run: when you reset, your current score becomes 0 and you continue with the next elements. Return the maximum score you can end with.
+29. Given an integer array nums, sum each element in the array in order. You are allowed to use at most one reset during the run: when you reset, your current score becomes 0 and you continue with the next elements. Return the maximum score you can end with.
 
 Example:
 
@@ -559,7 +559,7 @@ Example:
 
 [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-31. Given an array of objects representing bears in a forest, each with a name and hunger level, return the names of all bears whose hunger level is above the forest average, sorted alphabetically. In how few lines can you do this one?
+30. Given an array of objects representing bears in a forest, each with a name and hunger level, return the names of all bears whose hunger level is above the forest average, sorted alphabetically. In how few lines can you do this one?
 
 Example:
 
@@ -578,7 +578,7 @@ hungryBears(bears)
 
 [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-32. Given a string str, find a contiguous substring of length 10 whose characters can be bijectively mapped to the moves {U,D,L,R,B,A} so that the substring decodes to the Konami code "UUDDLRLRBA" (a character always maps to the same move, and two different moves can’t share a character). Return a valid mapping as an object.
+31. Given a string str, find a contiguous substring of length 10 whose characters can be bijectively mapped to the moves {U,D,L,R,B,A} so that the substring decodes to the Konami code "UUDDLRLRBA" (a character always maps to the same move, and two different moves can’t share a character). Return a valid mapping as an object.
 
 Example:
 
