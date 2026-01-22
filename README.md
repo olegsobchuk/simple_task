@@ -361,7 +361,7 @@ const widths = [5, 9, 4];
 > ['Super', 'califragi', 'list', 'icex', 'pial', 'idoc', 'ious']
 ```
 
-[Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+[Golang TBD](Golang) | [Python](./python/task_18.py) | [Ruby TBD]()
 
 19. Given a field represented as an array of 0s and 1s, where 1 means that position needs protection, you can place a
 scarecrow at any index, and each scarecrow protects up to k consecutive positions centered around itself (for example,
