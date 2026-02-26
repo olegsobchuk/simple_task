@@ -13,10 +13,10 @@
 
     [Golang](./golang/task_01.go) | [Python](./python/task_01.py) | [Ruby](./ruby/task_01.rb)
 
-2. You’re assembling a custom mechanical keyboard. Each required part has a delivery time in days and an assembly time
-in hours. You can only assemble a part after it arrives, and you can only work on one part at a time. Given an array of
-parts where each part is { name, arrivalDays, assemblyHours }, return the minimum total hours needed to finish
-assembling all parts, starting from hour 0.
+1. You're assembling a custom mechanical keyboard. Each required part has a delivery time in days and an assembly time
+    in hours. You can only assemble a part after it arrives, and you can only work on one part at a time. Given an array of
+    parts where each part is { name, arrivalDays, assemblyHours }, return the minimum total hours needed to finish
+    assembling all parts, starting from hour 0.
 
     Example:
 
@@ -35,9 +35,9 @@ assembling all parts, starting from hour 0.
 
     [Golang](./golang/task_02/main.go) | [Python](./python/task_02.py) | [Ruby TBD]()
 
-3. Given an array of audio file durations, write a function to group the files into playlists such that each playlist's
-total duration does not exceed a given limit maxDuration. Return an array of playlists, where each playlist is an array
-of file durations. Try to minimize the number of playlists.
+1. Given an array of audio file durations, write a function to group the files into playlists such that each playlist's
+    total duration does not exceed a given limit maxDuration. Return an array of playlists, where each playlist is an array
+    of file durations. Try to minimize the number of playlists.
 
     Example:
 
@@ -55,10 +55,10 @@ of file durations. Try to minimize the number of playlists.
 
     [Golang](./golang/task_03/main.go) | [Python](./python/task_03.py) | [Ruby TBD]()
 
-4. Given an array arr representing the positions of monsters along a straight line, and an integer d representing the
-minimum safe distance required between any two monsters, write a function to determine if all monsters are at least d
-units apart. If not, return the smallest distance found between any two monsters. If all monsters are safely spaced,
-return -1.
+1. Given an array arr representing the positions of monsters along a straight line, and an integer d representing the
+    minimum safe distance required between any two monsters, write a function to determine if all monsters are at least d
+    units apart. If not, return the smallest distance found between any two monsters. If all monsters are safely spaced,
+    return -1.
 
     Examples:
 
@@ -75,9 +75,9 @@ return -1.
 
     [Golang TBD](Golang) | [Python](./python/task_04.py) | [Ruby TBD]()
 
-5. Write a generator function createLaundryItem() that returns an object representing a laundry item. This object
-should have a method nextCycle() which, when called, advances the item through a series of laundry cycles in order:
-"soak", "wash", "rinse", "spin", and "dry". After the final cycle, subsequent calls to nextCycle() should return "done".
+1. Write a generator function createLaundryItem() that returns an object representing a laundry item. This object
+    should have a method nextCycle() which, when called, advances the item through a series of laundry cycles in order:
+    "soak", "wash", "rinse", "spin", and "dry". After the final cycle, subsequent calls to nextCycle() should return "done".
 
     Example:
 
@@ -96,9 +96,9 @@ should have a method nextCycle() which, when called, advances the item through a
 
     [Golang](./golang/task_05/main.go) | [Python](./python/task_05.py) | [Ruby TBD]()
 
-6. Given an array of order objects for a restaurant, each with a table number and a list of ordered items, write a
-function that returns an object mapping each table number to a summary of how many times each item was ordered at that
-table. Extra credit: Could you go so far as to make this a restaurant management game?
+1. Given an array of order objects for a restaurant, each with a table number and a list of ordered items, write a
+    function that returns an object mapping each table number to a summary of how many times each item was ordered at that
+    table. Extra credit: Could you go so far as to make this a restaurant management game?
 
     Example:
 
@@ -122,8 +122,8 @@ table. Extra credit: Could you go so far as to make this a restaurant management
 
     [Golang](./golang/task_06/main.go) | [Python](./python/task_06.py) | [Ruby TBD]()
 
-7. Given an array of side lengths, write a function to determine they can form a hexagon with three side-length pairs
-(as in, three pairs of equal sides needed). Return true if possible.
+1. Given an array of side lengths, write a function to determine they can form a hexagon with three side-length pairs
+    (as in, three pairs of equal sides needed). Return true if possible.
 
     Examples:
 
@@ -141,9 +141,9 @@ table. Extra credit: Could you go so far as to make this a restaurant management
 
     [Golang](./golang/task_07/main.go) | [Python](./python/task_07.py) | [Ruby TBD]()
 
-8. Given a multi-line string and a sequence of Vim navigation commands (h for left, j for down, k for up, and l for
-right), and starting at the top-left character, write a function that processes the commands and returns the character
-under the cursor. If the cursor tries to move out of bounds, keep it at the last valid position.
+1. Given a multi-line string and a sequence of Vim navigation commands (h for left, j for down, k for up, and l for
+    right), and starting at the top-left character, write a function that processes the commands and returns the character
+    under the cursor. If the cursor tries to move out of bounds, keep it at the last valid position.
 
     Example:
 
@@ -159,9 +159,9 @@ under the cursor. If the cursor tries to move out of bounds, keep it at the last
 
     [Golang](./golang/task_08/main.go) | [Python TBD](./python/task_08.py) | [Ruby TBD]()
 
-9. Given an array of strings representing a sequence of traffic light states ("red" for stop, "green" for go, "yellow"
-for slow), write a function that returns true if the sequence could represent a valid state machine for a standard
-traffic light. The only valid transitions are: red to green, green to yellow, and yellow to red.
+1. Given an array of strings representing a sequence of traffic light states ("red" for stop, "green" for go, "yellow"
+    for slow), write a function that returns true if the sequence could represent a valid state machine for a standard
+    traffic light. The only valid transitions are: red to green, green to yellow, and yellow to red.
 
     Example:
 
@@ -179,10 +179,10 @@ traffic light. The only valid transitions are: red to green, green to yellow, an
 
     [Golang](./golang/task_09/main.go) | [Python TBD]() | [Ruby TBD]()
 
-10. Imagine a simplified version of the game Battleship played on a 2D grid. The grid represents the sea, and each
-cell can either be empty (.) or contain a part of a ship (X). Ships are placed horizontally or vertically, and there
-are no adjacent ships. Given a grid, count the number of battleships in it. Extra credit: can you make a layout
-generator for the game given these rules?
+1. Imagine a simplified version of the game Battleship played on a 2D grid. The grid represents the sea, and each
+    cell can either be empty (.) or contain a part of a ship (X). Ships are placed horizontally or vertically, and there
+    are no adjacent ships. Given a grid, count the number of battleships in it. Extra credit: can you make a layout
+    generator for the game given these rules?
 
     Example:
 
@@ -201,8 +201,8 @@ generator for the game given these rules?
 
     [Golang](./golang/task_10/main.go) | [Python TBD]() | [Ruby TBD]()
 
-11. For an array of numbers, generate an array where for every element, all neighboring elements are added to itself,
-and return the sum of that array.
+1. For an array of numbers, generate an array where for every element, all neighboring elements are added to itself,
+    and return the sum of that array.
 
     Examples:
 
@@ -220,8 +220,8 @@ and return the sum of that array.
 
     [Golang TBD](Golang) | [Python](./python/task_11.py) | [Ruby TBD]()
 
-12. Given an array of strings representing the names of monarchs and their ordinal numbers, write a function that
-returns the list of names sorted first by name and then by their ordinal value (in Roman numerals), in ascending order.
+1. Given an array of strings representing the names of monarchs and their ordinal numbers, write a function that
+    returns the list of names sorted first by name and then by their ordinal value (in Roman numerals), in ascending order.
 
     Example:
 
@@ -236,7 +236,7 @@ returns the list of names sorted first by name and then by their ordinal value (
 
     [Golang](./golang/task_12/main.go) | [Python TBD]() | [Ruby TBD]()
 
-13. Turn an array of integers into a nested array. You can think of this as the opposite of flattening an array!
+1. Turn an array of integers into a nested array. You can think of this as the opposite of flattening an array!
 
     Examples:
 
@@ -251,8 +251,8 @@ returns the list of names sorted first by name and then by their ordinal value (
 
     [Golang TBD](Golang) | [Python](./python/task_13.py) | [Ruby TBD]()
 
-14. Write a function that determines if a number is
-[abundant, deficient, perfect, or amicable](https://www.encyclopedia.com/education/news-wires-white-papers-and-books/numbers-abundant-deficient-perfect-and-amicable?utm_source=cassidoo&utm_medium=email&utm_campaign=the-love-that-you-withhold-is-the-pain-that-you).
+1. Write a function that determines if a number is
+    [abundant, deficient, perfect, or amicable](https://www.encyclopedia.com/education/news-wires-white-papers-and-books/numbers-abundant-deficient-perfect-and-amicable?utm_source=cassidoo&utm_medium=email&utm_campaign=the-love-that-you-withhold-is-the-pain-that-you).
 
     Examples:
 
@@ -269,9 +269,9 @@ returns the list of names sorted first by name and then by their ordinal value (
 
     [Golang](./golang/task_14/main.go) | [Python TBD]() | [Ruby TBD]()
 
-15. Given the non-negative integer n , output the value of its
-[hyperfactorial](https://mathworld.wolfram.com/Hyperfactorial.html?utm_source=cassidoo&utm_medium=email&utm_campaign=i-recommend-the-freedom-that-comes-from-asking).
-Don't worry about outputs exceeding your language's integer limit.
+1. Given the non-negative integer n , output the value of its
+    [hyperfactorial](https://mathworld.wolfram.com/Hyperfactorial.html?utm_source=cassidoo&utm_medium=email&utm_campaign=i-recommend-the-freedom-that-comes-from-asking).
+    Don't worry about outputs exceeding your language's integer limit.
 
     Examples:
 
@@ -291,10 +291,10 @@ Don't worry about outputs exceeding your language's integer limit.
 
     [Golang](./golang/task_15/main.go) | [Python TBD]() | [Ruby TBD]()
 
-16. You're building a tool that tracks component edits and groups them into a changelog. Given an array of edit
-actions, each with a timestamp and a component name, return an array of grouped changelog entries. Edits to the same
-component within a 10-minute window should be merged into one changelog entry, showing the component name and the
-range of timestamps affected.
+1. You're building a tool that tracks component edits and groups them into a changelog. Given an array of edit
+    actions, each with a timestamp and a component name, return an array of grouped changelog entries. Edits to the same
+    component within a 10-minute window should be merged into one changelog entry, showing the component name and the
+    range of timestamps affected.
 
     Example:
 
@@ -329,9 +329,9 @@ range of timestamps affected.
 
     [Golang TBD](Golang) | [Python](./python/task_16.py) | [Ruby TBD]()
 
-17. Given a CSV string where each row contains a name, age, and city (and values may be quoted, have embedded commas or
-escaped quotes), write a function that parses the CSV and outputs a formatted list of strings in the form: "Name, age
-Age, from City". Handle quoted fields containing commas and escaped quotes.
+1. Given a CSV string where each row contains a name, age, and city (and values may be quoted, have embedded commas or
+    escaped quotes), write a function that parses the CSV and outputs a formatted list of strings in the form: "Name, age
+    Age, from City". Handle quoted fields containing commas and escaped quotes.
 
     Example:
 
@@ -346,10 +346,10 @@ Age, from City". Handle quoted fields containing commas and escaped quotes.
 
     [Golang](./golang/task_17/main.go) | [Python TBD]() | [Ruby TBD]()
 
-18. Given a string str and an array of positive integers widths, write a function that splits the
-string into lines, each with the exact number of characters as specified by the corresponding width.
-Return an array of the substrings. Use the last width for any remaining characters if the array is
-shorter than needed.
+1. Given a string str and an array of positive integers widths, write a function that splits the
+    string into lines, each with the exact number of characters as specified by the corresponding width.
+    Return an array of the substrings. Use the last width for any remaining characters if the array is
+    shorter than needed.
 
     Example:
 
@@ -363,11 +363,11 @@ shorter than needed.
 
     [Golang TBD](Golang) | [Python](./python/task_18.py) | [Ruby TBD]()
 
-19. Given a field represented as an array of 0s and 1s, where 1 means that position needs protection, you can place a
-scarecrow at any index, and each scarecrow protects up to k consecutive positions centered around itself (for example,
-for k = 3, a scarecrow at i protects i-1, i, and i+1). Return the minimum set of indices where scarecrows should be
-placed so that all the positions with 1 are protected. You can assume k is an odd number (or make up what happens if
-it's even).
+1. Given a field represented as an array of 0s and 1s, where 1 means that position needs protection, you can place a
+    scarecrow at any index, and each scarecrow protects up to k consecutive positions centered around itself (for example,
+    for k = 3, a scarecrow at i protects i-1, i, and i+1). Return the minimum set of indices where scarecrows should be
+    placed so that all the positions with 1 are protected. You can assume k is an odd number (or make up what happens if
+    it's even).
 
     Examples:
 
@@ -387,9 +387,9 @@ it's even).
 
     [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-20. Given he current position of a knight as [row, col] in an 8x8 chess board represented as a 2D
-array, write a function to return all valid moves the knight can make. Extra credit: Do this for
-every chess piece!
+1. Given he current position of a knight as [row, col] in an 8x8 chess board represented as a 2D
+    array, write a function to return all valid moves the knight can make. Extra credit: Do this for
+    every chess piece!
 
     Example:
 
@@ -406,7 +406,7 @@ every chess piece!
 
     [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-21. You are given two sorted arrays, a and b, where a has a large enough size buffer at the end to hold b (which can be spaces, zeroes, or nulls). Write a function to merge b into a in sorted order.
+1. You are given two sorted arrays, a and b, where a has a large enough size buffer at the end to hold b (which can be spaces, zeroes, or nulls). Write a function to merge b into a in sorted order.
 
     Example:
 
@@ -420,7 +420,7 @@ every chess piece!
 
     [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-22. Given a positive integer n, write a function that returns an array containing all integers from 1 to n, where each integer i appears exactly i times in the result. For example, 3 should appear 3 times, 5 should appear 5 times, and so on. The order of the integers in the output array does not matter.
+1. Given a positive integer n, write a function that returns an array containing all integers from 1 to n, where each integer i appears exactly i times in the result. For example, 3 should appear 3 times, 5 should appear 5 times, and so on. The order of the integers in the output array does not matter.
 
     Example:
 
@@ -431,7 +431,7 @@ every chess piece!
 
     [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-23. Given an array of meal prep tasks for Thanksgiving, where each task is represented as [taskName, startTime, endTime], return the maximum number of non-overlapping tasks you can complete, along with the names of the chosen tasks in the order they were selected. Task times are inclusive of start but exclusive of end.
+1. Given an array of meal prep tasks for Thanksgiving, where each task is represented as [taskName, startTime, endTime], return the maximum number of non-overlapping tasks you can complete, along with the names of the chosen tasks in the order they were selected. Task times are inclusive of start but exclusive of end.
 
     Example:
 
@@ -452,7 +452,7 @@ every chess piece!
 
     [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-24. There are 16 basic [HTML Colors](https://en.wikipedia.org/wiki/Web_colors?utm_source=cassidoo&utm_medium=email&utm_campaign=we-all-have-our-down-days-but-its-not-hard-to#HTML_color_names).
+1. There are 16 basic [HTML Colors](https://en.wikipedia.org/wiki/Web_colors?utm_source=cassidoo&utm_medium=email&utm_campaign=we-all-have-our-down-days-but-its-not-hard-to#HTML_color_names).
 Write a program to output them in ascending order by HEX value. Don't use any built-in sorting methods!
 
     Example output:
@@ -478,7 +478,7 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-25. Make a data structure for a deck of cards, and implement a shuffle() method, and a draw(n) method (where you draw n cards). Calling draw() when the deck is empty returns an empty array.
+1. Make a data structure for a deck of cards, and implement a shuffle() method, and a draw(n) method (where you draw n cards). Calling draw() when the deck is empty returns an empty array.
 
     Example usage:
 
@@ -492,7 +492,7 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-26. Write a function to generate a Latin Square given a positive integer n. The values can be any n distinct values, and don't have to be consistent for different n.
+1. Write a function to generate a Latin Square given a positive integer n. The values can be any n distinct values, and don't have to be consistent for different n.
 
     Examples:
 
@@ -509,7 +509,7 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-27. An alternating array is a list of any length in which two (not necessarily different) values are alternating (all even-indexed items are equal, and all odd-indexed items are equal). Given an array, return true if it is alternating.
+1. An alternating array is a list of any length in which two (not necessarily different) values are alternating (all even-indexed items are equal, and all odd-indexed items are equal). Given an array, return true if it is alternating.
 
     Examples:
 
@@ -525,7 +525,7 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-28. Given a string that contains only digits from 0 to 9 and a number n, replace each consecutive run of n with its length.
+1. Given a string that contains only digits from 0 to 9 and a number n, replace each consecutive run of n with its length.
 
     Examples:
 
@@ -542,7 +542,7 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-29. Given an integer array nums, sum each element in the array in order. You are allowed to use at most one reset during the run: when you reset, your current score becomes 0 and you continue with the next elements. Return the maximum score you can end with.
+1. Given an integer array nums, sum each element in the array in order. You are allowed to use at most one reset during the run: when you reset, your current score becomes 0 and you continue with the next elements. Return the maximum score you can end with.
 
     Example:
 
@@ -559,7 +559,7 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-30. Given an array of objects representing bears in a forest, each with a name and hunger level, return the names of all bears whose hunger level is above the forest average, sorted alphabetically. In how few lines can you do this one?
+1. Given an array of objects representing bears in a forest, each with a name and hunger level, return the names of all bears whose hunger level is above the forest average, sorted alphabetically. In how few lines can you do this one?
 
     Example:
 
@@ -578,7 +578,7 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-31. Given a string str, find a contiguous substring of length 10 whose characters can be bijectively mapped to the moves {U,D,L,R,B,A} so that the substring decodes to the Konami code "UUDDLRLRBA" (a character always maps to the same move, and two different moves can’t share a character). Return a valid mapping as an object.
+1. Given a string str, find a contiguous substring of length 10 whose characters can be bijectively mapped to the moves {U,D,L,R,B,A} so that the substring decodes to the Konami code "UUDDLRLRBA" (a character always maps to the same move, and two different moves can’t share a character). Return a valid mapping as an object.
 
     Example:
 
