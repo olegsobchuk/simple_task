@@ -695,3 +695,65 @@ perfect month around the given Gregorian year.
     ```
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Given a string s consisting only of 'a' and 'b', you may swap adjacent characters any number of times. Return the minimum number of adjacent swaps needed to transform s into an alternating string, either "ababab..." or "bababa...", or return -1 if it's impossible.
+
+    Example:
+
+    ```text
+    minSwapsToAlternate('aabb')
+    1
+
+    minSwapsToAlternate('aaab')
+    -1
+
+    minSwapsToAlternate('aaaabbbb')
+    6
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. You're given a 2D grid representing a city where each cell is either empty (0), a fire station (1), or a building (2). Fire stations can serve buildings based on horizontal + vertical moves only. Return a 2D grid where each cell shows the minimum distance to the nearest fire station.
+
+    Examples:
+
+    ```text
+    > fireStationCoverage([
+    [2, 0, 1],
+    [0, 2, 0],
+    [1, 0, 2]
+    ])
+    > [[2, 1, 0],
+    [1, 2, 1],
+    [0, 1, 2]]
+
+    > fireStationCoverage([
+    [1, 0, 0, 1],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [1, 0, 0, 1]
+    ])
+    > [[0, 1, 2, 0],
+    [1, 2, 2, 1],
+    [1, 2, 2, 1],
+    [0, 1, 2, 0]]
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Given a text string and a pattern, implement a fuzzy string search using the Bitap algorithm that finds all positions in the text where the pattern matches with at most k errors (insertions, deletions, or substitutions). Return an array of objects containing the position and the number of errors at that match.
+
+    Example:
+
+    ```text
+    > fuzzySearch("the cat sat on the mat", "cat", 0);
+    > [{ position: 4, errors: 0 }]
+
+    > fuzzySearch("cassidoo", "cool", 1);
+    > []
+
+    > fuzzySearch("cassidoo", "cool", 3);
+    > [{ "position": 3, "errors": 3 }, { "position": 4, "errors": 2 }]
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
