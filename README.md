@@ -757,3 +757,40 @@ perfect month around the given Gregorian year.
     ```
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Given an integer n, return all unique combinations of Perrin numbers (up to and including the nth Perrin number) that sum to a target value k, where each Perrin number can be used at most once. Return the combinations sorted in ascending order.
+
+    Example:
+
+    ```text
+    > perrinCombinations(7, 12)
+    [[0,2,3,7],[0,5,7],[2,3,7],[5,7]]
+
+    > perrinCombinations(6, 5)
+    [[0,2,3],[0,5],[2,3],[5]]
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. You are given a file system represented as an object where keys are absolute paths and values are either null (real file/directory) or a string (a symlink pointing to another path). Write a function that resolves a given path to its real destination, following symlinks along the way. If a symlink chain forms a cycle, return null.
+
+    Example:
+
+    ```text
+    const fs = {
+    "/a": "/b",
+    "/b": "/c",
+    "/c": null,
+    "/loop1": "/loop2",
+    "/loop2": "/loop1",
+    "/real": null,
+    "/alias": "/real",
+    };
+
+    resolvePath(fs, "/a");      // "/c"
+    resolvePath(fs, "/alias");  // "/real"
+    resolvePath(fs, "/loop1");  // null
+    resolvePath(fs, "/real");   // "/real"
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
