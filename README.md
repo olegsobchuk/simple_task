@@ -794,3 +794,86 @@ perfect month around the given Gregorian year.
     ```
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. You're building a pizza ordering system that enforces strict ingredient layering rules. Given an array of pizza layers (bottom to top) and a set of rules where each rule states that ingredient A must appear somewhere below ingredient B, write a function that determines whether the pizza is valid. If any rule is violated, return the pair [A, B] that was violated first (in the order the rules are given). If the pizza is valid, return true.
+
+    Examples:
+
+    ```text
+    const layers = ["dough", "sauce", "cheese", "pepperoni", "basil"];
+    const rules = [
+    ["sauce", "cheese"],
+    ["cheese", "pepperoni"],
+    ["dough", "basil"],
+    ];
+    const rules2 = [
+    ["cheese", "pepperoni"],
+    ["cheese", "sauce"], // "it's under the sauce"
+    ];
+
+    validatePizza(layers, rules);
+    > true
+
+    validatePizza(layers, rules2);
+    > ['cheese', 'sauce']
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Given a string s containing letters and ? wildcards (that can match any letter), and a target pattern string pattern, rearrange the entire string however you like. Return the maximum number of non-overlapping copies of pattern that can appear in the rearranged result.
+
+    Example:
+
+    ```text
+    maxPatternCopies("abcabc???", "ac")  // 3
+
+    maxPatternCopies("aab??", "aab")  // 1
+
+    maxPatternCopies("??????", "abc")  // 2
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. You are given a 2D grid where 1 represents an intact tile and 0 represents a broken tile. A "broken region" is a group of connected 0s (connected horizontally or vertically). Find the minimum number of tiles you need to repair to ensure no broken region has an area larger than k.
+
+    Examples:
+
+    ```text
+    const grid = [
+    [1, 0, 0, 1],
+    [1, 0, 0, 1],
+    [1, 1, 0, 1],
+    [0, 1, 1, 1],
+    ];
+    const k = 2;
+
+    let newGrid = [
+    [1, 0, 0, 1],
+    [1, 0, 0, 1],
+    [1, 1, 0, 1],
+    [0, 0, 1, 1],
+    ];
+    let newK = 1;
+
+    minRepairs(grid, k)
+    > 2
+
+    minRepairs(newGrid, newK)
+    > 3
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Given an array of positive integers, find the length of the longest subsequence where every adjacent pair of elements in the subsequence is coprime (where the greatest common divisor, or GCD, is 1).
+
+    Example:
+
+    ```text
+    longestCoprimeSubsequence([6, 12, 4, 8])
+    > 1 // none are coprime
+
+    longestCoprimeSubsequence([4, 3, 6, 9, 7, 2])
+    > 4 // [4, 3, 7, 2], where gcd(4,3)=1, gcd(3,7)=1, gcd(7,2)=1
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
