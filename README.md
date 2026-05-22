@@ -385,7 +385,7 @@
     > [0, 1, 2, 3, 4]
     ```
 
-    [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+    [Golang](./golang/task_19/main.go) | [Python TBD]() | [Ruby TBD]()
 
 1. Given he current position of a knight as [row, col] in an 8x8 chess board represented as a 2D
     array, write a function to return all valid moves the knight can make. Extra credit: Do this for
