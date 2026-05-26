@@ -404,7 +404,7 @@
     > [[0, 0], [0, 4], [2, 0], [2, 4], [3, 1], [3, 3]]
     ```
 
-    [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
+    [Golang TBD](Golang) | [Python TBD]() | [Ruby](./ruby/task_20.rb)
 
 1. You are given two sorted arrays, a and b, where a has a large enough size buffer at the end to hold b (which can be spaces, zeroes, or nulls). Write a function to merge b into a in sorted order.
 
