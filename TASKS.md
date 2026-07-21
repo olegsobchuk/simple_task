@@ -478,7 +478,8 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD]() | [Ruby TBD]()
 
-1. Make a data structure for a deck of cards, and implement a shuffle() method, and a draw(n) method (where you draw n cards). Calling draw() when the deck is empty returns an empty array.
+1. Make a data structure for a deck of cards, and implement a shuffle() method, and a draw(n)
+method (where you draw n cards). Calling draw() when the deck is empty returns an empty array.
 
     Example usage:
 
@@ -492,7 +493,8 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Write a function to generate a Latin Square given a positive integer n. The values can be any n distinct values, and don't have to be consistent for different n.
+1. Write a function to generate a Latin Square given a positive integer n. The values can be any n
+distinct values, and don't have to be consistent for different n.
 
     Examples:
 
@@ -509,7 +511,9 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. An alternating array is a list of any length in which two (not necessarily different) values are alternating (all even-indexed items are equal, and all odd-indexed items are equal). Given an array, return true if it is alternating.
+1. An alternating array is a list of any length in which two (not necessarily different) values
+are alternating (all even-indexed items are equal, and all odd-indexed items are equal). Given
+an array, return true if it is alternating.
 
     Examples:
 
@@ -525,7 +529,8 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given a string that contains only digits from 0 to 9 and a number n, replace each consecutive run of n with its length.
+1. Given a string that contains only digits from 0 to 9 and a number n, replace each consecutive
+run of n with its length.
 
     Examples:
 
@@ -542,7 +547,9 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given an integer array nums, sum each element in the array in order. You are allowed to use at most one reset during the run: when you reset, your current score becomes 0 and you continue with the next elements. Return the maximum score you can end with.
+1. Given an integer array nums, sum each element in the array in order. You are allowed to use
+at most one reset during the run: when you reset, your current score becomes 0 and you continue
+with the next elements. Return the maximum score you can end with.
 
     Example:
 
@@ -559,7 +566,9 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given an array of objects representing bears in a forest, each with a name and hunger level, return the names of all bears whose hunger level is above the forest average, sorted alphabetically. In how few lines can you do this one?
+1. Given an array of objects representing bears in a forest, each with a name and hunger level,
+return the names of all bears whose hunger level is above the forest average, sorted alphabetically.
+In how few lines can you do this one?
 
     Example:
 
@@ -578,7 +587,10 @@ Write a program to output them in ascending order by HEX value. Don't use any bu
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given a string str, find a contiguous substring of length 10 whose characters can be bijectively mapped to the moves {U,D,L,R,B,A} so that the substring decodes to the Konami code "UUDDLRLRBA" (a character always maps to the same move, and two different moves can’t share a character). Return a valid mapping as an object.
+1. Given a string str, find a contiguous substring of length 10 whose characters can be
+bijectively mapped to the moves {U,D,L,R,B,A} so that the substring decodes to the Konami
+code "UUDDLRLRBA" (a character always maps to the same move, and two different moves can’t
+share a character). Return a valid mapping as an object.
 
     Example:
 
@@ -607,7 +619,8 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given an integer array and a number n, move all of the ns to the end of the array while maintaining the relative order of the non-ns. Bonus: do this without making a copy of the array!
+1. Given an integer array and a number n, move all of the ns to the end of the array while
+maintaining the relative order of the non-ns. Bonus: do this without making a copy of the array!
 
     Example:
 
@@ -618,7 +631,8 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. You have a 2D grid of numbers. Write a function that zooms in by an integer factor k >= 2 by turning each cell into a k x k block with the same value, returning the bigger grid.
+1. You have a 2D grid of numbers. Write a function that zooms in by an integer factor k >= 2 by
+turning each cell into a k x k block with the same value, returning the bigger grid.
 
     Examples:
 
@@ -651,7 +665,9 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given an array of integers, find the contiguous subarray that has the largest sum and return that sum. A subarray must contain at least one element. If all elements are negative, return the largest (least negative) value. If you need a hint, look up Kadane's Algorithm!
+1. Given an array of integers, find the contiguous subarray that has the largest sum and return
+that sum. A subarray must contain at least one element. If all elements are negative, return the
+largest (least negative) value. If you need a hint, look up Kadane's Algorithm!
 
     Examples:
 
@@ -668,7 +684,9 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. You are given a string consisting of lowercase words, each separated by a single space. Determine how many vowels appear in the first word. Then, reverse each following word that has the same vowel count.
+1. You are given a string consisting of lowercase words, each separated by a single space.
+Determine how many vowels appear in the first word. Then, reverse each following word that has
+the same vowel count.
 
     Examples:
 
@@ -682,7 +700,9 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Find the majority element in an array (one that appears more than n/2 times) in O(n) time and O(1) space without hashmaps. Hint: the Boyer-Moore Voting algorithm might help if you can't figure this one out!
+1. Find the majority element in an array (one that appears more than n/2 times) in O(n) time
+and O(1) space without hashmaps. Hint: the Boyer-Moore Voting algorithm might help if you can't
+figure this one out!
 
     Example:
 
@@ -696,7 +716,9 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given a string s consisting only of 'a' and 'b', you may swap adjacent characters any number of times. Return the minimum number of adjacent swaps needed to transform s into an alternating string, either "ababab..." or "bababa...", or return -1 if it's impossible.
+1. Given a string s consisting only of 'a' and 'b', you may swap adjacent characters any number of
+times. Return the minimum number of adjacent swaps needed to transform s into an alternating
+string, either "ababab..." or "bababa...", or return -1 if it's impossible.
 
     Example:
 
@@ -713,7 +735,10 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. You're given a 2D grid representing a city where each cell is either empty (0), a fire station (1), or a building (2). Fire stations can serve buildings based on horizontal + vertical moves only. Return a 2D grid where each cell shows the minimum distance to the nearest fire station.
+1. You're given a 2D grid representing a city where each cell is either empty (0),
+a fire station (1), or a building (2). Fire stations can serve buildings based on
+horizontal + vertical moves only. Return a 2D grid where each cell shows the minimum
+distance to the nearest fire station.
 
     Examples:
 
@@ -741,7 +766,10 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given a text string and a pattern, implement a fuzzy string search using the Bitap algorithm that finds all positions in the text where the pattern matches with at most k errors (insertions, deletions, or substitutions). Return an array of objects containing the position and the number of errors at that match.
+1. Given a text string and a pattern, implement a fuzzy string search using the Bitap algorithm
+that finds all positions in the text where the pattern matches with at most k errors (insertions,
+deletions, or substitutions). Return an array of objects containing the position and the number of
+errors at that match.
 
     Example:
 
@@ -758,7 +786,9 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given an integer n, return all unique combinations of Perrin numbers (up to and including the nth Perrin number) that sum to a target value k, where each Perrin number can be used at most once. Return the combinations sorted in ascending order.
+1. Given an integer n, return all unique combinations of Perrin numbers (up to and including
+the nth Perrin number) that sum to a target value k, where each Perrin number can be used at most
+once. Return the combinations sorted in ascending order.
 
     Example:
 
@@ -772,7 +802,10 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. You are given a file system represented as an object where keys are absolute paths and values are either null (real file/directory) or a string (a symlink pointing to another path). Write a function that resolves a given path to its real destination, following symlinks along the way. If a symlink chain forms a cycle, return null.
+1. You are given a file system represented as an object where keys are absolute paths and values
+are either null (real file/directory) or a string (a symlink pointing to another path). Write a
+function that resolves a given path to its real destination, following symlinks along the way.
+If a symlink chain forms a cycle, return null.
 
     Example:
 
@@ -795,7 +828,11 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. You're building a pizza ordering system that enforces strict ingredient layering rules. Given an array of pizza layers (bottom to top) and a set of rules where each rule states that ingredient A must appear somewhere below ingredient B, write a function that determines whether the pizza is valid. If any rule is violated, return the pair [A, B] that was violated first (in the order the rules are given). If the pizza is valid, return true.
+1. You're building a pizza ordering system that enforces strict ingredient layering rules. Given
+an array of pizza layers (bottom to top) and a set of rules where each rule states that ingredient
+A must appear somewhere below ingredient B, write a function that determines whether the pizza is
+valid. If any rule is violated, return the pair [A, B] that was violated first (in the order the
+rules are given). If the pizza is valid, return true.
 
     Examples:
 
@@ -820,7 +857,9 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given a string s containing letters and ? wildcards (that can match any letter), and a target pattern string pattern, rearrange the entire string however you like. Return the maximum number of non-overlapping copies of pattern that can appear in the rearranged result.
+1. Given a string s containing letters and ? wildcards (that can match any letter), and a target
+pattern string pattern, rearrange the entire string however you like. Return the maximum number
+of non-overlapping copies of pattern that can appear in the rearranged result.
 
     Example:
 
@@ -834,7 +873,9 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. You are given a 2D grid where 1 represents an intact tile and 0 represents a broken tile. A "broken region" is a group of connected 0s (connected horizontally or vertically). Find the minimum number of tiles you need to repair to ensure no broken region has an area larger than k.
+1. You are given a 2D grid where 1 represents an intact tile and 0 represents a broken tile. A
+"broken region" is a group of connected 0s (connected horizontally or vertically). Find the minimum
+number of tiles you need to repair to ensure no broken region has an area larger than k.
 
     Examples:
 
@@ -864,7 +905,9 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given an array of positive integers, find the length of the longest subsequence where every adjacent pair of elements in the subsequence is coprime (where the greatest common divisor, or GCD, is 1).
+1. Given an array of positive integers, find the length of the longest subsequence where every
+adjacent pair of elements in the subsequence is coprime (where the greatest common divisor, or
+GCD, is 1).
 
     Example:
 
@@ -878,7 +921,9 @@ perfect month around the given Gregorian year.
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
 
-1. Given a string s consisting of letters, convert each character to its opposite case that is, change every lowercase letter to uppercase, and every uppercase letter to lowercase. Bonus: add an "alternate" parameter that converts the whole string to AlTeRnAtE cAsE!
+1. Given a string s consisting of letters, convert each character to its opposite case that is,
+change every lowercase letter to uppercase, and every uppercase letter to lowercase. Bonus: add
+an "alternate" parameter that converts the whole string to AlTeRnAtE cAsE!
 
     Examples:
 
@@ -896,3 +941,173 @@ perfect month around the given Gregorian year.
     ```
 
     [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Given an array of object weights and an array of suitcase capacities, determine the minimum
+number of suitcases needed to pack all objects, where each object must go into exactly one suitcase
+and each suitcase can hold any number of objects up to its capacity. Return -1 if it is impossible
+to pack all objects.
+
+    Examples:
+
+    ```text
+    packSuitcases([4, 8, 1, 4, 2], [10, 6, 8]);
+    > 3
+
+    packSuitcases([9, 7, 6], [10, 6]);
+    > -1
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. You have a "mini" version of solitaire in front of you. There is a row of cards, where each
+card has a rank from 1 to 13 and a color of "red" or "black". In one move, you may place a card
+onto another card immediately to its left if its rank is exactly one less and its color is opposite,
+then remove the moved card from its original position. Return the maximum number of valid moves you
+can make by repeatedly scanning left to right.
+
+    Example:
+
+    ```text
+    const cards = [
+    { rank: 7, color: "black" },
+    { rank: 6, color: "red" },
+    { rank: 5, color: "black" },
+    { rank: 9, color: "red" }
+    ];
+
+    const cards2 = [
+    { rank: 8, color: "black" },
+    { rank: 7, color: "red" },
+    { rank: 6, color: "red" },
+    { rank: 5, color: "black" }
+    ];
+
+    > maxSolitaireMoves(cards)
+    > 2 // 6 onto 7, 5 onto 6
+
+    > maxSolitaireMoves(cards2)
+    > 2 // 7 onto 8, 5 onto 6
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Given an input positive integer n (from 1 to your language's limit, inclusively), return the
+maximum number of distinct positive integers that sum to n.
+
+    Examples:
+
+    ```text
+    > maxDistinctCount(5)
+    > 2
+    // 2 + 3 = 5, or 1 + 4 = 5
+
+    maxDistinctCount(8)
+    > 3
+    // 1 + 2 + 5 = 8
+
+    maxDistinctCount(15)
+    > 5
+    // 1 + 2 + 3 + 4 + 5 = 15
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Given inclusive unavailable date ranges, an array of override dates, and a message date,
+return true if the message should receive an auto-reply and false otherwise. A message gets an
+auto-reply only when it falls inside at least one unavailable range and is not an override date.
+
+    Examples:
+
+    ```text
+    const unavailableRanges1 = [["2026-07-01", "2026-07-10"], ["2026-08-15", "2026-08-20"]];
+    const overrideDates1 = ["2026-07-04"];
+    const messageDate1 = "2026-07-05";
+
+    const unavailableRanges2 = [["2026-07-01", "2026-07-10"]];
+    const overrideDates2 = ["2026-07-04"];
+    const messageDate2 = "2026-07-04";
+
+    const unavailableRanges3 = [["2026-07-01", "2026-07-10"]];
+    const overrideDates3 = [];
+    const messageDate3 = "2026-07-11";
+
+    shouldAutoReply(unavailableRanges1, overrideDates1, messageDate1)
+    > true
+    shouldAutoReply(unavailableRanges2, overrideDates2, messageDate2)
+    > false
+    shouldAutoReply(unavailableRanges3, overrideDates3, messageDate3)
+    > false
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Given a positive integer n, calculate the mean number of bits required to represent all integers
+from 0 to n-1 (where the bit count of 0 is 1). Return the result rounded to two decimal places.
+
+    Example:
+
+    ```text
+    > meanBits(6)
+    > 2.00
+
+    // Explanation
+    // 0: 1 bit, 1: 1 bit, 2: 2 bits, 3: 2 bits, 4: 3 bits, 5: 3 bits
+    // Mean = (1 + 1 + 2 + 2 + 3 + 3) / 6 = 2.00
+    ```
+
+1. Given an n x m grid, an odd integer size, and a coordinate (row, col) representing where a
+firework explodes, return all grid coordinates impacted by the blast. A firework affects every
+cell within Math.floor(size / 2) rows and columns of the center, clipped to the grid boundaries.
+
+    Example:
+
+    ```text
+    > getImpactedCoordinates(5, 5, 3, 1, 1)
+    > [[0,0],[0,1],[0,2],[1,0],[1,1],[1,2],[2,0],[2,1],[2,2]]
+
+    > getImpactedCoordinates(3, 3, 1, 2, 1)
+    > [[2,1]]
+
+    > getImpactedCoordinates(5, 5, 3, 4, 4)
+    > [[3,3],[3,4],[4,3],[4,4]]
+    ```
+
+1. Write a function that takes a non-negative integer n and prints the numbers 0 through n in a
+clockwise spiral, starting at the top-left of a square grid. Hint: The grid size should be
+ceil(sqrt(n + 1)), and any unused cells should be blank.
+
+    Example
+
+    ```text
+    > spiralGrid(99)
+    0  1  2  3  4  5  6  7  8  9
+    35 36 37 38 39 40 41 42 43 10
+    34 63 64 65 66 67 68 69 44 11
+    33 62 83 84 85 86 87 70 45 12
+    32 61 82 95 96 97 88 71 46 13
+    31 60 81 94 99 98 89 72 47 14
+    30 59 80 93 92 91 90 73 48 15
+    29 58 79 78 77 76 75 74 49 16
+    28 57 56 55 54 53 52 51 50 17
+    27 26 25 24 23 22 21 20 19 18
+
+    > spiralGrid(30)
+    0  1  2  3  4  5
+    19 20 21 22 23  6
+    18          24  7
+    17 30       25  8
+    16 29 28 27 26  9
+    15 14 13 12 11 10
+    ```
+
+1. Given a string of . and _ where _ represents a blink, return the longest gap between blinks.
+
+    Examples:
+
+    ```text
+    countBlinks("_..__...._.")
+    > 4
+
+    countBlinks("...._")
+    > 0
+    ```
