@@ -1111,3 +1111,25 @@ ceil(sqrt(n + 1)), and any unused cells should be blank.
     countBlinks("...._")
     > 0
     ```
+
+1. Given an array of ice cream orders and a freezer stock map, return how many orders can be
+fulfilled before the first unavailable flavor.
+
+    Example:
+
+    ```text
+    > fulfilledOrdersBeforeFailure(
+        [["chocolate"],["chocolate"],["chocolate"]],
+        { chocolate: 2 })
+    > 2
+
+    > fulfilledOrdersBeforeFailure(
+        [["vanilla","vanilla"],["chocolate","mint"],["strawberry"],["strawberry","mint"]],
+        { vanilla: 2, chocolate: 1, mint: 1, strawberry: 5 })
+    > 3
+
+    > fulfilledOrdersBeforeFailure(
+        [["rocky road"],["vanilla"]],
+        { vanilla: 3 })
+    > 0
+    ```
