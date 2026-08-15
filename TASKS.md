@@ -1133,3 +1133,35 @@ fulfilled before the first unavailable flavor.
         { vanilla: 3 })
     > 0
     ```
+
+1. Given an array of strings A, and an array of indexes B, reorder the strings in array A with the given indices in array B. You can choose to do this in-place, or return a new array. As you decide which route to take, think... which is more efficient?
+
+    Example:
+
+    ```text
+    let a = ['C', 'D', 'E', 'F', 'G', 'H'];
+    let b = [3, 0, 4, 1, 2, 5];
+
+    > reorder(a, b) // a is now ['D', 'F', 'G', 'C', 'E', 'H']
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
+
+1. Write a function trim(type, s) that trims a string based on a trim type. The type parameter is one of four modes: "leading" (remove leading spaces), "trailing" (remove trailing spaces), "both" (remove leading and trailing spaces), or "compress" (collapse any sequence of multiple consecutive spaces into a single space, but leave single spaces intact). Return the trimmed string.
+
+    Example:
+
+    ```text
+    trim("leading", "   hello world   ")
+    > "hello world   "
+    trim("trailing", "   hello world   ")
+    > "   hello world"
+    trim("both", "   hello world   ")
+    > "hello world"
+    trim("compress", "hello   world  !")
+    > "hello world !"
+    trim("compress", "  hi   there  ")
+    > " hi there "
+    ```
+
+    [Golang TBD](Golang) | [Python TBD](no) | [Ruby TBD](no)
