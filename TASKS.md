@@ -1182,3 +1182,14 @@ You may rotate the smaller rectangle 90 degrees.
     > packRectangles(10, 6, 11, 2)
     > 0
     ```
+
+1. Given an array of integers, return a new array where odd numbers come first, even numbers
+come next, and zeros appear at the end. The relative order of elements within each group must
+be preserved.
+
+Example:
+
+```text
+> partitionArray([0, 3, 2, 1, 4, 0, 7])
+> [3, 1, 7, 2, 4, 0, 0]
+```
