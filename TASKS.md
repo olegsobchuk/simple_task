@@ -1187,9 +1187,25 @@ You may rotate the smaller rectangle 90 degrees.
 come next, and zeros appear at the end. The relative order of elements within each group must
 be preserved.
 
-Example:
+    Example:
 
-```text
-> partitionArray([0, 3, 2, 1, 4, 0, 7])
-> [3, 1, 7, 2, 4, 0, 0]
-```
+    ```text
+    > partitionArray([0, 3, 2, 1, 4, 0, 7])
+    > [3, 1, 7, 2, 4, 0, 0]
+    ```
+
+1. Given an integer n representing the number of steps in a staircase, return the number of
+distinct ways you can reach the top if you can climb either 1 or 2 steps at a time.
+
+    Example:
+
+    ```text
+    climbStairs(2)
+    > 2
+
+    climbStairs(4)
+    > 5
+
+    climbStairs(10)
+    > 89
+    ```
