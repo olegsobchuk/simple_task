@@ -1209,3 +1209,123 @@ distinct ways you can reach the top if you can climb either 1 or 2 steps at a ti
     climbStairs(10)
     > 89
     ```
+
+1. There's a ghost in your keyboard! It keeps typing weird symbols in your words. Given a string
+you typed (with the ghost), # deletes the last character and ~ duplicates it, if one exists.
+Return the final text.
+
+    Examples:
+
+    ```text
+    ghostwriter("ghost")
+    > "ghost"
+
+    ghostwriter("a#~b")
+    > "b"
+
+    ghostwriter("ab~c#")
+    > "abb"
+
+    ghostwriter("BBB##O~")
+    > 'BOO'
+    ```
+
+1. You're trick-or-treating down a street, and you're given an array that shows how many pieces
+of candy each house gives out. You can't visit two houses that are next to each other. Return
+the maximum number of candy pieces you can collect.
+
+    Example:
+
+    ```text
+    > maxCandy([2, 7, 9, 3, 1])
+    > 12 // visit houses with 2, 9, and 1
+    >
+    > maxCandy([5, 1, 1, 5])
+    > 10 // it's worth it to skip the middle two
+    >
+    > maxCandy([4])
+    > 4
+    ```
+
+1. You have a backpack lock's starting position, and the code to unlock it, represented as two
+strings of integers. In one move, you may rotate any single digit one step up or down, with 0 and 9
+considered adjacent. Return the minimum number of moves needed to transform the starting code into
+the unlock code.
+
+    Example:
+
+    ```text
+    minMoves("8051", "1199")
+    > 10
+
+    minMoves("000", "555")
+    > 15
+
+    minMoves("109", "990")
+    > 4
+    ```
+
+1. Given a sentence, return the longest word whose letters appear in alphabetical order.
+
+    Examples:
+
+    ```text
+    > longestSorted("The autumn leaves almost glow.")
+    > "almost"
+
+    > longestSorted("A cool sheep sleeps.")
+    > ""
+    ````
+
+1. Given a year and month, return an array containing every date in that month that falls on a
+Sunday. Return each date in YYYY-MM-DD format.
+
+    Examples:
+
+    ```text
+    > getSundays(2026, 9)
+    > [ '2026-09-06', '2026-09-13', '2026-09-20', '2026-09-27' ]
+
+    > getSundays(2024, 2)
+    > [ '2024-02-04', '2024-02-11', '2024-02-18', '2024-02-25' ]
+    ```
+
+1. Given an array of daily temperatures and a number drop, return an array where each element
+is how many days you'd wait until it's at least drop degrees colder than that day. If that never
+happens, put 0.
+
+    Examples:
+
+    ```text
+    > firstFrost([70, 68, 72, 60, 65, 55], 5)
+    > [3, 2, 1, 2, 1, 0]
+
+    > firstFrost([50, 49, 48], 5)
+    > [0, 0, 0]
+
+    > firstFrost([40, 30, 45, 20], 10)
+    > [1, 2, 1, 0]
+    ```
+
+1. On Halloween night, a town is represented by a grid where 0 is an empty lot, 1 is a living
+person, and 2 is an infected zombie. Every minute, infection spreads to any living person directly
+above, below, left, or right of an infected zombie. Return the minimum number of minutes until no
+living people remain, or -1 if some people can never be reached.
+
+    Examples:
+
+    ```text
+    > minutesUntilApocalypse([
+    [2, 1, 1],
+    [1, 1, 0],
+    [0, 1, 1]
+    ])
+    > 4
+
+    > minutesUntilApocalypse([
+    [2, 1, 1],
+    [0, 1, 1],
+    [1, 0, 1]
+    ])
+    > -1
+    ```
